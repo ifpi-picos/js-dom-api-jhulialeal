@@ -1,0 +1,127 @@
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+
+body {
+    background-color: #DCDCDC; /* Exemplo de cor de fundo */
+    color: #2F4F4F; /* Exemplo de cor de texto */
+}
+
+header{
+ text-align: center;
+    /* background-color: #333;
+    color: white */
+    padding: 25px;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+    margin: 0;  
+}
+
+.inserir{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 15px;
+    /* border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+} 
+
+
+#task-input {
+    width: 70%; /* Ajusta a largura do campo */
+    padding: 8px; /* Adiciona um espaçamento interno */
+    margin: 2px 2; /* Adiciona margem acima e abaixo */
+    border: 1px solid #ccc; /* Define a borda */
+    border-radius: 10px; /* Arredonda os cantos da borda */
+    font-size: 16px; /* Ajusta o tamanho da fonte */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+    background-color: #EFEFEF; /* Cor de fundo cinza claro */
+    color: #2F4F4F; /* Cor do texto cinza escuro */
+    
+}
+
+button[type="submit"] {
+    padding: 7px 5px; /* Adiciona um espaçamento interno */
+    margin: 10px 0; /* Adiciona margem acima e abaixo */
+    border: none; /* Remove a borda */
+    border-radius: 10px; /* Arredonda os cantos da borda */
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    font-size: 16px; /* Ajusta o tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar clicabilidade */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra */
+    background-color: #A9A9A9; /* Cor de fundo azul */
+    color: white; /* Mantém o texto em branco */
+}
+
+button[type="submit"]:hover {
+    background-color: #DCDCDC; /* Escurece a cor de fundo ao passar o mouse */
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.tarefas {
+}
+
+.tarefas {
+    max-width: 600px; /* Limita a largura da div para não ocupar toda a largura da tela */
+    margin: 20px auto; /* Centraliza a div na tela com margem superior e inferior de 20px */
+    padding: 20px; /* Adiciona um padding interno para espaço ao redor do conteúdo */
+    background-color: #C0C0C0; /* Define uma cor de fundo suave */
+    border-radius: 10px; /* Arredonda os cantos da div */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+    text-align: center; /* Centraliza o texto dentro da div */
+    max-width: 600px; 
+    margin: 20px auto; 
+    text-align: center; 
+    max-width: 600px;
+    margin: 2px auto;
+    padding: 2px;
+    background-color: #C0C0C0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}   
+
+
+#task-list {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 14px;  /* Remove o padding padrão */
+}
+
+#task-list li {
+    display: flex; /* Usa flexbox para alinhar os itens da lista horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    margin-bottom: 10px; /* Adiciona uma margem entre os itens da lista */
+    justify-content: space-between; /* Isso ajuda a separar o conteúdo e o botão 'X' */
+    min-width: 0; /* Evita que o elemento seja esticado além do necessário */
+}
+
+#task-list li:last-child {
+    margin-bottom: 0; /* Remove a margem do último item para manter a uniformidade */
+}
+
+input[type="checkbox"] {
+    margin-right: 10px; /* Adiciona um espaço entre o checkbox e o label */
+}
+
+
+ button.remove-task {
+     margin-left: auto;  /* Empurra o botão para a direita */
+     padding: 4px 10px; /* Define o padding do botão */
+     background-color: #ff4747; /* Cor de fundo vermelha para ação de remoção */
+     border: none; /* Remove a borda padrão do botão */
+     border-radius: 4px;  /* Arredonda os cantos do botão */
+     color: white; /* Define a cor do texto para branco */
+     cursor: pointer; /* Muda o cursor para indicar ação clicável */
+} 
+
+button.remove-task:hover {
+    background-color: #ff0000; /* Escurece o botão quando passa o mouse */
+ } 
